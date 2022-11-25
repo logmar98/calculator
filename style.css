@@ -1,14 +1,86 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: burlywood;
+}
+.calculter{
+    background-color: darkgray;
+    padding: 22px;
+    border: #000 solid 1px;
+    border-radius: 38px;
+    
+}
+.screen {
+    height: 80px;
+    width: 400px;
+    background-color: rgba(165, 233, 165, 0.685);
+    margin-bottom: 24px;
+    border: #000 solid 1px;
+    border-radius: 22px;
+}
+.content {
+    margin-left: 18px;
+}
 .numbers{
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 307px;
+    height: 400px;
 }
 .number{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
-    width: 60px;
-    height: 60px;
+    background-color: rgba(97, 97, 97, 0.418);
+    box-sizing: border-box;
+    width: 32%;
     margin: 2px;
+}
+.abovenumbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 71px;
+
+}
+
+.tool{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    background-color: rgb(67, 164, 196);
+    
+}
+.number, .tool{
+    border: 1px solid #000;
+    border-radius: 24px;
+
+}
+#clear{
+    flex-grow: 2;
+}
+.number-rightside{
+    display: flex;
+    
+}
+.right-side{
+    display: flex;
+    width: 93px;
+    flex-direction: column;
+    
+}
+#add{
+    height: 118px;
+}
+#ac{
+    background-color: rgb(133, 60, 60);
+}
+#equal{
+    background-color: blue;
 }
