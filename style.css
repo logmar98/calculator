@@ -1,0 +1,15 @@
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    
+}
