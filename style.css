@@ -58,12 +58,16 @@ body{
     
 }
 .number, .tool{
-    border: 1px solid #000;
+    border: 3px double #000;
     border-radius: 24px;
-
+    font-size: 24px;
+}
+.number:active ,.tool:active{
+    border:2px #000 solid;
 }
 #clear{
-    flex-grow: 2;
+    width: 234px;
+
 }
 .number-rightside{
     display: flex;
@@ -83,4 +87,6 @@ body{
 }
 #equal{
     background-color: blue;
+}
+button{
 }
